@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">DonBus</string>
+    <string name="header_title" translatable="false">My header title</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="trolley_name">Trolleys</string>
+    <string name="tram_name">Trams</string>
+    <string name="bus_name">Buses</string>
+    <string name="route_name">Route Taxis</string>
+    <string name="suburban_name">Suburban</string>
+    <string name="inter_name">Intercity</string>
+    <string name="train_name">Trains</string>
+    <string name="no_internet">Internet connectivity problems</string>
+    <string name="text_loading" translatable="false">Downloading assets...</string>
+    <string name="noData" translatable="false">No data found</string>
+</resources>

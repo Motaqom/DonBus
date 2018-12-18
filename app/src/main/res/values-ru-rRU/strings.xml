@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DonBus</string>
+    <string name="trolley_name">Тролейбусы</string>
+    <string name="tram_name">Трамваи</string>
+    <string name="bus_name">Автобусы</string>
+    <string name="route_name">Маршрутки</string>
+    <string name="suburban_name">Пригород</string>
+    <string name="inter_name">Межгород</string>
+    <string name="train_name">Поезда</string>
+    <string name="no_internet">Нет соединения</string>
+    <string name="text_loading" translatable="false">Загрузка</string>
+</resources>
