@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".RateActivity">
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:singleLine="true"
+        android:text="Name" />
+
+    <EditText
+        android:id="@+id/etRate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="@string/numHint"
+        android:inputType="number"
+        android:onClick="checkRating"
+        android:singleLine="true" />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        style="?android:attr/buttonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="goNext"
+        android:text="@string/submit" />
+
+</LinearLayout>

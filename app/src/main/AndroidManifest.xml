@@ -12,8 +12,9 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity"
-            android:configChanges="orientation|screenSize"/>
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="orientation|screenSize" />
         <activity android:name=".InfoActivity" />
         <activity android:name=".LoadingActivity">
             <intent-filter>
@@ -23,6 +24,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".TimetableActivity" />
+        <activity android:name=".RateActivity" />
+        <activity android:name=".ThankyouActivity"></activity>
     </application>
 
 </manifest>

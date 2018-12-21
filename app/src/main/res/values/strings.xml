@@ -14,4 +14,11 @@
     <string name="no_internet">Internet connectivity problems</string>
     <string name="text_loading" translatable="false">Downloading assets...</string>
     <string name="noData" translatable="false">No data found</string>
+    <string name="appInfo">This app allows you to view the timetable for most forms of public transportation in Donetsk.</string>
+    <string name="appAuthor">Made by Coutaq(Michael Melikov) (c)2018</string>
+    <string name="btnRate">Rate app</string>
+    <string name="firstName">First Name:</string>
+    <string name="submit">Sumbit</string>
+    <string name="numHint">Rating (1-5)</string>
+    <string name="error">Enter a valid number!</string>
 </resources>

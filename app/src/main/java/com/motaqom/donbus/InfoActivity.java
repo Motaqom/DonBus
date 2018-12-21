@@ -1,24 +1,29 @@
 package com.motaqom.donbus;
 
+import android.content.Intent;
+import android.icu.text.IDNA;
 import android.os.AsyncTask;
 import android.os.Handler;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.Button;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
-public class InfoActivity extends AppCompatActivity  implements SwipeRefreshLayout.OnRefreshListener{
+public class    InfoActivity extends AppCompatActivity implements SwipeRefreshLayout.OnRefreshListener{
     public boolean online = false;
     public boolean reach = false;
     public TextView internet, server;
     public ProgressBar pbI, pbS;
     public SwipeRefreshLayout swipeLayout;
+    public Button btnRate;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_info);
+        btnRate = findViewById(R.id.btnRate);
         swipeLayout = (SwipeRefreshLayout) findViewById(R.id.swipe_container);
         swipeLayout.setOnRefreshListener(this);
         swipeLayout.setColorScheme(android.R.color.holo_blue_bright,
@@ -74,6 +79,11 @@ public class InfoActivity extends AppCompatActivity  implements SwipeRefreshLayo
                 server.setTextColor(getResources().getColor(R.color.suburban_color));
             }
         }
+
+    }
+    public void rateApp(){
+        Intent intent = new Intent(this, RateActivity.class);
+        startActivity(intent);
     }
 
 }
