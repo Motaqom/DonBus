@@ -10,4 +10,13 @@
     <string name="train_name">Поезда</string>
     <string name="no_internet">Нет соединения</string>
     <string name="text_loading" translatable="false">Загрузка</string>
+    <string name="noData">Информация не найдена</string>
+    <string name="appInfo">Это приложение позволяет получить расписание общественного транспорта в Донецке.</string>
+    <string name="appAuthor">Сделано Михаилом Меликовым (с) 2018</string>
+    <string name="btnRate">Оценить</string>
+    <string name="firstName">Имя</string>
+    <string name="submit">Отправить</string>
+    <string name="numHint">Оценка(1-5)</string>
+    <string name="thanks">"Спасибо за оценку, "</string>
+    <string name="exit">Выход</string>
 </resources>

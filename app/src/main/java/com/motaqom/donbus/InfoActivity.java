@@ -7,6 +7,7 @@ import android.os.Handler;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.ProgressBar;
 import android.widget.TextView;
@@ -81,7 +82,7 @@ public class    InfoActivity extends AppCompatActivity implements SwipeRefreshLa
         }
 
     }
-    public void rateApp(){
+    public void rateApp(View view){
         Intent intent = new Intent(this, RateActivity.class);
         startActivity(intent);
     }

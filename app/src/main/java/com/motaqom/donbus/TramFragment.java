@@ -31,20 +31,20 @@ public class TramFragment extends TransportFragment {
         ArrayList trams = JsonHandler.readFromJson(getContext(), "trams.txt", JsonHandler.getListType(new TypeToken<List<TramInfo>>(){}));
         TramAdapter tramAdapter = new TramAdapter(getActivity(), R.layout.list_item, trams);
         listView.setAdapter(tramAdapter);
-        listView.setOnItemClickListener(new AdapterView.OnItemClickListener(){
+        /*listView.setOnItemClickListener(new AdapterView.OnItemClickListener(){
             @Override
             public void onItemClick(AdapterView<?> adapterView, View itemView, int i, long l){
-               /* String data;
+                String data;
                     ArrayList<TimetableInfo> json = JsonHandler.readFromJson(getContext(), "bussTimetable.txt", JsonHandler.getListType(new TypeToken<List<TimetableInfo>>(){}));
                 for(int j = 0; j<json.size();j++){
                     if (Integer.parseInt(json.get(j).getId()) == Integer.parseInt(buss.get(i).getId()))
                         getTimetable(TimetableActivity.class, buss.get(i).getId(), json.get(j).getStart(), json.get(j).getEnd());
-                }*/
+                }
                 Intent intent = new Intent(getActivity(), TimetableActivity.class);
                 startActivity(intent);
 
             }
-        });
+        });*/
         return view;
     }
 }

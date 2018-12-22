@@ -1,9 +1,7 @@
 <resources>
     <string name="app_name">DonBus</string>
-    <string name="header_title" translatable="false">My header title</string>
 
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
     <string name="trolley_name">Trolleys</string>
     <string name="tram_name">Trams</string>
     <string name="bus_name">Buses</string>
@@ -12,13 +10,14 @@
     <string name="inter_name">Intercity</string>
     <string name="train_name">Trains</string>
     <string name="no_internet">Internet connectivity problems</string>
-    <string name="text_loading" translatable="false">Downloading assets...</string>
-    <string name="noData" translatable="false">No data found</string>
+    <string name="text_loading">Downloading assets...</string>
+    <string name="noData">No data found</string>
     <string name="appInfo">This app allows you to view the timetable for most forms of public transportation in Donetsk.</string>
-    <string name="appAuthor">Made by Coutaq(Michael Melikov) (c)2018</string>
+    <string name="appAuthor">Made by Michael Melikov (c)2018</string>
     <string name="btnRate">Rate app</string>
     <string name="firstName">First Name:</string>
     <string name="submit">Sumbit</string>
     <string name="numHint">Rating (1-5)</string>
-    <string name="error">Enter a valid number!</string>
+    <string name="thanks">"Thank you for your rating, "</string>
+    <string name="exit">Exit</string>
 </resources>
