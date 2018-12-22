@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class IntercityInfo {
-    private int CoA;
+    private String CoA;
     private String price;
     private String from;
     private String to;
@@ -14,7 +14,7 @@ public class IntercityInfo {
     public IntercityInfo() {
     }
 
-    public IntercityInfo(int CoA, String price, String from, String to) {
+    public IntercityInfo(String CoA, String price, String from, String to) {
 
         this.CoA = CoA;
         this.price = price;
@@ -22,11 +22,11 @@ public class IntercityInfo {
         this.to = to;
     }
 
-    public int getCoA() {
+    public String getCoA() {
         return CoA;
     }
 
-    public void setCoA(int CoA) {
+    public void setCoA(String CoA) {
         this.CoA = CoA;
     }
 
