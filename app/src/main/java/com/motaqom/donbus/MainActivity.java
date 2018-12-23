@@ -171,14 +171,8 @@ public class MainActivity extends AppCompatActivity{
 
         switch (item.getItemId()) {
             case android.R.id.home:
-                    mDrawerLayout.openDrawer(GravityCompat.START);
+                mDrawerLayout.openDrawer(GravityCompat.START);
                 return true;
-
-            case R.id.info:
-                Intent intent = new Intent(this, InfoActivity.class);
-                startActivity(intent);
-                return true;
-
         }
         return super.onOptionsItemSelected(item);
     }

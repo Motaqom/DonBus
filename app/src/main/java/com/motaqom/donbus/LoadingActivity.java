@@ -10,6 +10,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.Toast;
 
+import java.io.InputStream;
 import java.net.URL;
 import java.util.Scanner;
 
@@ -43,6 +44,22 @@ public class LoadingActivity extends AppCompatActivity {
                             }
                         } catch (Exception e) {
                         }
+                    }
+                }else{
+
+                    for (int i = 0; i < Data.files.length; i++) {
+                        if(!JsonHandler.hasFile(getApplicationContext(), Data.files[i])){
+                            try {
+                                String json = null;
+                                InputStream ins = getResources().openRawResource(getResources().getIdentifier(Data.local[i], "raw", getPackageName()));
+                                json = new Scanner(ins, "UTF-8").useDelimiter("\\A").next();
+                                if(!json.getBytes().equals(Data.data[i])){
+                                    JsonHandler.writeFile(getApplicationContext(), Data.files[i], json.getBytes());
+                                }
+                            } catch (Exception e) {
+                            }
+                        }
+
                     }
                 }
                 onPostExecute();

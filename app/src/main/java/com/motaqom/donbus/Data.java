@@ -390,4 +390,16 @@ public class Data {
             "id: \"230\",start: \"10:30\",end: \"19:26\n" +
             "}\n" +
             "]\n";
+
+    public static String[] local = {
+            "buss",
+            "trams",
+            "trolleys",
+            "routes",
+            "suburbans",
+            "intercitys",
+            "trains",
+            "bussTimetable",
+            "stops"
+    };
 }

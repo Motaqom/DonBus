@@ -57,7 +57,7 @@
                         android:layout_weight="0"
                         android:fontFamily="sans-serif-condensed"
                         android:text="to "
-                        android:textSize="16sp" />
+                        android:textSize="14sp" />
 
                     <TextView
                         android:id="@+id/arrow1"
@@ -76,7 +76,7 @@
                         android:layout_weight="0"
                         android:fontFamily="sans-serif-condensed"
                         android:text="from"
-                        android:textSize="16sp" />
+                        android:textSize="14sp" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -93,7 +93,7 @@
                         android:layout_weight="0"
                         android:fontFamily="sans-serif-condensed"
                         android:text="from"
-                        android:textSize="16sp" />
+                        android:textSize="14sp" />
 
                     <TextView
                         android:id="@+id/arrow"
@@ -112,7 +112,7 @@
                         android:layout_weight="0"
                         android:fontFamily="sans-serif-condensed"
                         android:text="to "
-                        android:textSize="16sp" />
+                        android:textSize="14sp" />
 
                 </LinearLayout>
 

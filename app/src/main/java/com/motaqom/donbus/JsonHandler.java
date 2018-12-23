@@ -3,6 +3,7 @@ package com.motaqom.donbus;
 import android.Manifest;
 import android.content.Context;
 import android.content.pm.PackageManager;
+import android.content.res.AssetManager;
 import android.support.v4.content.ContextCompat;
 
 import com.google.gson.Gson;
@@ -97,4 +98,5 @@ public class JsonHandler {
         Gson gson = new Gson();
         return gson.fromJson(json, listType);
     }
+
 }
